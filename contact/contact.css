@@ -9,11 +9,12 @@
     margin: 0;
     padding: 0;
     background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
 
 }
 h1
 {  
-    font-family: 'Abril Fatface', cursive;
+  font-family: 'Montserrat', sans-serif;
     cursor: pointer;
     margin-right: auto;
 }
@@ -80,7 +81,7 @@ button
   --red: #e31b23;
   --bodyColor: #292a2b;
   --borderFormEls: hsl(0, 0%, 10%);
-  --bgFormEls: hsl(0, 0%, 14%);
+  --bgFormEls:  #;
   --bgFormElsFocus: hsl(0, 7%, 20%);
 }
 
@@ -168,7 +169,7 @@ body {
   border: 1px solid var(--borderFormEls);
   color: var(--white);
   background: var(--bgFormEls);
-  transition: background-color 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25),
+  transition: background-color 0.7s cubic-bezier(0.57, 0.21, 0.69, 1.25),
     transform 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
 }
 
@@ -179,7 +180,7 @@ body {
 .my-form ::placeholder {
   color: inherit;
   /*Fix opacity issue on Firefox*/
-  opacity: 1;
+  opacity: 10;
 }
 
 .my-form select:focus,
@@ -212,10 +213,6 @@ body {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/down.svg);
 }
 
-.my-form *:disabled {
-  cursor: default;
-  filter: blur(1px);
-}
 
 
 /* FORM BTNS
@@ -323,11 +320,13 @@ footer span {
 
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
 @media screen and (min-width: 600px) {
   .my-form .grid {
     display: grid;
     grid-gap: 1.5rem;
   }
+  */
 
   .my-form .grid-2 {
     grid-template-columns: 1fr 1fr;
