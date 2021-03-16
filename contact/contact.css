@@ -344,7 +344,7 @@ footer span {
   .my-form .required-msg {
     display: block;
   }
-}
+
 
 @media screen and (min-width: 541px) {
   .my-form input[type="checkbox"] + label::before {
