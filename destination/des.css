@@ -14,9 +14,10 @@
 
 h1
 {  
-    font-family: 'Abril Fatface', cursive;
-    cursor: pointer;
-    margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  margin-right: auto;
+  font-size: 20px;
 }
 
 li, a, button 
@@ -58,6 +59,14 @@ header
     color: #0088a9;
 
 }
+.header2 {
+    font-size: 30px;
+    text-align: center;
+    background: white;
+    padding-top: 32px;
+    padding-bottom: 39px;
+    
+  }
 
 button
 {
@@ -71,3 +80,191 @@ button
 }
 /* Top Navigation Bar End */
 
+/* Full */
+
+
+.main-wrapper {
+  width: 51%;
+  margin: center;
+  margin:  auto;
+}
+
+.main-content__heading {
+  font-size: 21px;
+  font-weight: bold;
+  color: #d32323;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 19px;
+  
+}
+
+.main-content .main-content__menu {
+  margin-bottom: 20px;
+}
+
+.main-content .menu-list {
+  position: relative;
+  width: 66%;
+  box-sizing: border-box;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding: 2;
+  padding-bottom: 12px;
+  margin: 0 auto;
+  margin-bottom: 53px;
+}
+
+.menu-list .menu-list__item {
+  display: inline-block;
+}
+
+.menu-list .menu-list__link {
+  text-decoration: none;
+  color: #666;
+  padding-left: 5px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.menu-list .menu-list__link:hover {
+  padding-bottom: 7px;
+  border-bottom: 3px solid #D32323;
+  cursor: pointer;
+}
+
+.main-content__subheading {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #d32323;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.restaurants {
+  margin-bottom: 25px;
+}
+
+
+.restaurants__col {
+  display: inline-block;
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+  margin: 0 1%;
+  user-select: none;
+}
+
+.card__photo img {
+  border-radius: 4px 4px 0 0;
+}
+
+.restaurants__col .img-link {
+  user-select: none;
+}
+
+
+
+.restaurants-container {
+  font-size: 14px;
+	font-family: sans-serif;
+	font-stretch: extra-condensed;
+	padding: 12px;
+
+}
+
+.restaurants__name {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.restaurants__name-link {
+  font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0073bb;	
+	text-decoration: none;
+}
+
+
+.restaurants__rating {
+  margin-bottom: 7px;
+  padding: 11px 0 0 0;
+}
+
+
+
+.restaurants__rating .review-counter {
+	display: inline-block;
+	padding: 0;
+	color: #666;
+	user-select: none;
+  vertical-align: text-top;
+}
+
+.restaurants-info {
+  color: #333;
+	margin-bottom: 7px;
+}
+
+.restaurants-info__cost {
+  font-size: 14px;
+	padding-right: 10px;
+}
+
+.restaurants-info__food {
+  font-size: 14px;
+}
+
+.restaurants-info__food:before {
+	content: "\2022";
+	position: relative;
+	left: -7px;
+	top: 0;
+	color: #999;
+}
+.restaurants-timetable .work-days {
+	position: relative;
+	font-size: 14px;
+	color: #f15c00;
+	padding-left: 25px;
+}
+
+.menu-category__more {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.menu-category__more a {
+  display: inline-block;
+  font-size: 14px;
+  color: #0073bb;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.menu-category__more a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
